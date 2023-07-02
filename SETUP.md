@@ -124,10 +124,7 @@ SPW4 - Exercise 3 Setup Instructions
 1. Create and run a SonarQube container:
    ```shell
    # for Intel-based CPUs:
-   docker run -d --name sonarqube --restart always \
-              --network runner-net -p 9000:9000 \
-              -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true \
-              sonarqube:8.9.8-community
+   docker run -d --name sonarqube --restart always --network runner-net -p 9000:9000 -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true sonarqube:8.9.8-community
    
    # for ARM-based CPUs:
    docker run -d --name sonarqube --restart always \
