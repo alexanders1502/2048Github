@@ -31,7 +31,7 @@ Screenshot of created .war File:
 
 Tasks were fulfilled in lesson session. 
 
-Screenshot of GitLab Runners:
+Screenshot of GitLab Runners
 
 ![Gitlab_Runners](screenshots/gitlab_runners.png)
 
